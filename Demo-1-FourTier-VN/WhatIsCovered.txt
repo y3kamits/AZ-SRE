@@ -1,6 +1,6 @@
 Creating
 1 Resource group
     1 Virtual Network
-        4 Subnets under it, 
+        4 Subnets under it, (Web Subnet/App Subnet/ DB Subnet)
             each one is having VMs and their respective Network Security groups
                     Network Security Rules
