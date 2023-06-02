@@ -4,24 +4,26 @@
 variable "business_division" {
   description = "Applicable Business division vairable within organization"
   type        = string
-  default     = "TechOps"
+  #default     = "TechOps"
 }
 
 #Environment Variables
 variable "environment" {
   description = "Application environment variable within organization"
   type        = string
-  default     = "Dev"
+  #default     = "Dev"
 }
 
 #Azure reource group name variable
 variable "resource_group_name" {
   description = "Applicable Azure resource group name"
-  default     = "Demo-1-FourTier-VN"
+  type        = string
+  #default     = "Demo-1-FourTier-VN"
 }
 
 #Azure resource location variable
-variable "location" {
+variable "resource_group_location" {
   description = "Applicable Azure resource location"
-  default     = "eastus2"
+  type        = string
+  #default     = "eastus2"
 }   
